@@ -7,7 +7,7 @@ function handleCredentialResponse(response) {
   // ---- PASSO CRUCIAL: ENVIAR O TOKEN PARA O SEU BACKEND ----
   // Substitua 'SUA_URL_BACKEND_AQUI/auth/google' pela URL real
   // do seu endpoint no Supabase/Firebase que vai receber e validar o token.
-  const backendUrl = 'SUA_URL_BACKEND_AQUI/auth/google';
+  const backendUrl = 'https://uoeshejtkzngnqxtqtbl.supabase.co/functions/v1/auth-google-exchange';
 
   fetch(backendUrl, {
     method: 'POST',
