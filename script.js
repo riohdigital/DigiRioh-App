@@ -52,7 +52,7 @@ window.onload = function () {
   // ---- PASSO CRUCIAL: CONFIGURAR SEU CLIENT ID ----
   // Substitua 'SEU_CLIENT_ID_DO_GOOGLE_AQUI' pelo Client ID real
   // que você criou no Google Cloud Console para esta aplicação WEB.
-  const googleClientId = 'SEU_CLIENT_ID_DO_GOOGLE_AQUI';
+  const googleClientId = '414232145280-as5a3ntt18cj35c97gadceaaadstrsja.apps.googleusercontent.com';
 
   if (!googleClientId || googleClientId === 'SEU_CLIENT_ID_DO_GOOGLE_AQUI') {
       console.error("ERRO: Client ID do Google não configurado em script.js!");
