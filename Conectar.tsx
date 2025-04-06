@@ -14,8 +14,8 @@ import {
 } from "@/utils/googleAuth";
 
 // Configurações do ambiente
-const GOOGLE_CLIENT_ID = "SEU_GOOGLE_CLIENT_ID"; // ⚠️ Substitua pelo seu Client ID real
-const SUPABASE_EDGE_FUNCTION_URL = "https://SEU_PROJETO.supabase.co/functions/v1/auth-google-exchange"; // ⚠️ Substitua pela URL real
+const GOOGLE_CLIENT_ID = "414232145280-as5a3ntt18cj35c97gadceaaadstrsja.apps.googleusercontent.com"; // ⚠️ Substitua pelo seu Client ID real
+const SUPABASE_EDGE_FUNCTION_URL = "https://uoeshejtkzngnqxtqtbl.supabase.co/functions/v1/auth-google-exchange"; // ⚠️ Substitua pela URL real
 
 const Conectar = () => {
   const { toast } = useToast();
